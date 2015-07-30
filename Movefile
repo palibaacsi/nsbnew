@@ -1,0 +1,18 @@
+--- |-
+  local:”vhost=http://nsb-new.dev wordpress_path=/Users/ptb-air/Documents/WordPress/www/nsb-new/htdocs”
+  database:”name=nsb-new user=wp password=wp host=localhost”
+  staging:”vhost=http://nsb.trottersperk.net wordpress_path=/home/trotters/public_html/nsb”
+  database:”name=trotters_nsbnew user=trotters_nsbnew password=ypHeJOJ{vM[u host=localhost”
+  ftp:”user=trotters password=Fendi666 host=https://kc11.fab-host.com passive=true”
+
+
+  exclude:
+    - ".git/"
+    - ".gitignore"
+    - ".sass-cache/"
+    - "bin/"
+    - "tmp/*"
+    - "Gemfile*"
+    - "Movefile"
+    - "wp-config.php"
+    - "wp-content/*.sql"

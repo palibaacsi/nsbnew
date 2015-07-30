@@ -1,0 +1,6 @@
+[13-Jul-2015 18:23:19 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/nsb-pc/htdocs/wp-includes/update.php on line 457
+[30-Jul-2015 16:51:15 UTC] WordPress database error Table 'nsb.wp_wpgmza_maps' doesn't exist for query 
+        SELECT *
+        FROM wp_wpgmza_maps
+        WHERE `id` = '1' LIMIT 1
+     made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/naked-nsb/front-page.php'), do_shortcode, preg_replace_callback, do_shortcode_tag, call_user_func, wpgmaps_tag_basic, wpgmza_get_map_data

@@ -1,0 +1,15 @@
+/* --------- Desktops ----------- */
+@media only screen and ( min-width : 1369px ) {
+	/* Styles */
+
+/* Moved to nsb-main.css */
+
+}
+
+/* --------- Laptops ----------- */
+@media only screen and ( min-width : 1150px ) and ( max-width : 1368px )  {
+	/* Styles */
+
+/* Moved to nsb-main.css */
+
+}

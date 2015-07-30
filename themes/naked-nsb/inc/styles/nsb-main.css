@@ -1,0 +1,309 @@
+#primary {
+  padding: 5rem 0;
+  width: 90%; 
+  margin: 0 auto;
+  float: left;
+}
+#content {
+  margin: 0 auto;
+  width: 80%;
+  float: right;
+  padding: 0 5rem;
+}
+#secondary {
+  padding: 5rem 0;
+  width: 30%; 
+  margin: 0 auto;
+  float: left;
+}
+#spacer {
+  height:5rem;
+}
+
+section {
+  min-height: 20rem;
+}
+#first {
+  text-align: center;
+  background-color: #09b1db;
+}
+#third {
+  text-align: center;
+  background-color: #f38256;
+}
+#fourth {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+#fifth {
+  text-align: center;
+  background-color: #a6c039;
+}
+#home-fourth {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.inline-pair {
+    width: 45%;
+    float: left;
+    padding: 1rem;
+}
+  #home-fifth {
+    width: 93%;
+    margin: 2rem auto;
+    padding: 0;
+  }
+  #home-fifth > ul {
+     width: 100%; 
+     padding: 0;
+     margin: 0 auto;
+}
+  }
+#home-fifth li {
+     width: 25%; 
+     float: left;
+  }
+#home-visual {
+  padding: 5rem;
+}
+
+.metaslider .slides img {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+ #featured-image {
+  width: 40%;
+  float: left;
+}
+
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
+#home-visual h2 {
+  line-height: 50px;
+  font-size: 34px;
+  font-size: 4rem;
+  font-weight: 700;
+  color: coral;
+  text-shadow: 1px 1px #57514d;
+}
+#home-visual h3 {
+  color: #57514d;
+}
+#home-fifth > a { float: right; }
+/*-------------------------------------------------------*/
+/* Header info
+/*-------------------------------------------------------*/
+
+#top-bar  {
+  height: 5rem;
+  background-color: #57514d;
+  position: fixed;
+  width: 100%;
+  z-index: 22222;
+}
+#header-search {
+  padding: 5rem;
+}
+header nav ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 50%;
+}
+header {
+  border-bottom: solid coral;
+}
+
+#masthead {
+  padding: 0;
+  margin: 0 auto;
+  border-bottom: solid coral;
+}
+
+.site-logo-sm {
+  display: inline-block;
+  padding: 0 10%;
+}
+
+#hdr-menu {
+  padding: 0 10%; 
+  float: right;
+}
+
+.site-logo {
+  width: 33%;
+  float: left;
+}
+
+.site-branding {
+  position: relative;
+  top: 0;
+}
+
+#logo-hold {
+  width: 45%;
+    height: 3rem;
+  float: left;
+}
+
+#search-container {
+  width: 55%;
+  float: right;
+}
+
+input#s {
+  width: 70%;
+  height: 5rem;
+  float: left;
+  border: 0;
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+}
+#masthead input[type="submit"] {
+  border: none;
+  border-radius: 4px;
+  background: #a6c039;
+  color: rgba(250, 250, 250, 0.8);
+  cursor: pointer;
+  -webkit-appearance: button;
+  height: 5rem;
+  font-size: 2rem;
+  line-height: 0;
+  padding: 1.12em 1.5em 1em;
+}
+#masthead input[type="submit"]:hover {
+  background: coral;
+}
+
+#menu-primary {
+  margin: 0 auto;
+  width: 78%;
+  padding-bottom: 2rem;
+}
+
+
+/*-------------------------------------------------------*/
+/* Menu info
+/*-------------------------------------------------------*/
+ul#menu-header.menu {
+  margin: 2px;
+}
+ul#menu-header-home.menu {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+ul.menu {
+  list-style: none;
+}
+
+ul.menu li {
+  float: left;
+  padding: 0 1rem;
+}
+
+ul#menu-header > li > a, ul#menu-header-home > li > a  {
+  color: #fff; 
+  font-size: 1.7rem;
+}
+
+ul#menu-header > li > a:hover, ul#menu-header-home > li > a:hover {
+  color: #09b1db; 
+}
+
+
+
+/*-------------------------------------------------------*/
+/* Body info
+/*-------------------------------------------------------*/
+
+#ui-id-3 > p { font-size: 1.2rem; }
+
+/* article.post h1.title a */
+article.post h1.title {
+  color: #fff;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.1em;
+  background: url(https://web.archive.org/web/20130315120851/http://www.restaurantsupplycompany.com/images/uploads/graphics/cat-banner-bg.png)no-repeat;
+  padding: 0 7rem;
+}
+
+#searchform > div > label { display: none; }
+article.post h1.title a { color: #fff; }
+
+div.irw-widget {
+  padding: 3rem;
+}
+
+/*-------------------------------------------------------*/
+/* Footer info
+/*-------------------------------------------------------*/
+.site-footer {
+  padding: 0 10%;
+}
+
+footer #sidebar {
+  padding: 5rem 0;
+}
+
+footer #sidebar > div:nth-child(1) {
+  float: left;
+  width: 66%;
+}
+#sidebar > div:nth-child(2){
+  float: left;
+  width: 34%;
+}
+footer #sidebar > div > div {
+  font-size: 1.75rem;
+}
+#sidebar > div:nth-child(1) > div > img {
+    position: relative;
+    left: 3rem;
+}
+
+.menu-footer-containerdi ul#menu-footer li {
+  width: 5%;
+}
+
+#menu-footer > li > a {
+  font-size: 1.5rem;
+  color: #57514d;
+}
+#menu-footer > li > a:hover {
+  color: #09b1db;
+} 
+
+/* --------- Desktops ----------- */
+@media only screen and ( min-width : 1369px ) {
+  /* Styles */
+
+  #home-fifth {
+    width: 70%;
+  }
+
+}
+
+/* --------- Laptops ----------- */
+@media only screen and ( min-width : 1150px ) and ( max-width : 1368px )  {
+  /* Styles */
+
+/* Moved to nsb-main.css */
+
+}
